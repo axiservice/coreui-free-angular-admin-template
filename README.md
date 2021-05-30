@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aaec551d-d323-42ec-adb2-f73ec49c746a/deploy-status)](https://app.netlify.com/sites/gifted-ride-476963/deploys)
 [![@coreui angular](https://img.shields.io/badge/@coreui%20-angular-lightgrey.svg?style=flat-square)](https://github.com/coreui/angular)
 [![npm package][npm-coreui-angular-badge]][npm-coreui-angular]
 [![NPM downloads][npm-coreui-angular-download]][npm-coreui-angular]  
