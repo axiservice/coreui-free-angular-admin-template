@@ -93,6 +93,8 @@ Install the Angular CLI globally using a terminal/console window.
 ```bash
 npm install -g @angular/cli
 ```
+###### Angular FIRE
+sudo npm install --save firebase @angular/fire
 
 ##### Update to Angular 11
 Angular 11 requires `Node.js` version 10.13 or newer    

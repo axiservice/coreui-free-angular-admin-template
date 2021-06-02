@@ -8,6 +8,7 @@ import { P404Component } from './views/error/404.component';
 import { P500Component } from './views/error/500.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
+import { TutorialsListComponent } from './views/tutorials-list/tutorials-list.component';
 
 export const routes: Routes = [
   {
@@ -41,6 +42,13 @@ export const routes: Routes = [
     component: RegisterComponent,
     data: {
       title: 'Register Page'
+    }
+  },
+  {
+    path: 'testpage001',
+    component : TutorialsListComponent,
+    data: {
+       title: 'Tutorials List Component'
     }
   },
   {
@@ -81,7 +89,8 @@ export const routes: Routes = [
       {
         path: 'widgets',
         loadChildren: () => import('./views/widgets/widgets.module').then(m => m.WidgetsModule)
-      }
+      },
+
     ]
   },
   { path: '**', component: P404Component }
