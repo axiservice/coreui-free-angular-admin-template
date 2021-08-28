@@ -62,6 +62,11 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 import { KabanListComponent } from './kaban-list/kaban-list.component';
 import { PageTestComponent } from './page-test/page-test.component';
+import { PageHeaderComponent } from './containers/page-header/page-header.component';
+import { PageFooterComponent } from './containers/page-footer/page-footer.component';
+import { MenuRightComponent } from './containers/menu-right/menu-right.component';
+import { MenuLeftComponent } from './containers/menu-left/menu-left.component';
+import { MenuBreadcrumbComponent } from './containers/menu-breadcrumb/menu-breadcrumb.component';
 
 @NgModule({
   imports: [
@@ -102,7 +107,12 @@ import { PageTestComponent } from './page-test/page-test.component';
     RegisterComponent,
     TutorialsListComponent,
     KabanListComponent,
-    PageTestComponent
+    PageTestComponent,
+    PageHeaderComponent,
+    PageFooterComponent,
+    MenuRightComponent,
+    MenuLeftComponent,
+    MenuBreadcrumbComponent
   ],
   providers: [
     {
