@@ -76,6 +76,11 @@
         </div>
       </li>
     </cui-breadcrumb>
+
+
+    
+    
+    
     <!-- deprecation warning for 'app-breadcrumb' -->
     <!--<ol class="breadcrumb">-->
       <!--<app-breadcrumb></app-breadcrumb>-->
@@ -91,7 +96,12 @@
     <div class="container-fluid">
       <router-outlet></router-outlet>
     </div><!-- /.container-fluid -->
-  </main>
+
+
+    <app-tutorials-list></app-tutorials-list>
+  
+
+</main>
   <app-aside [fixed]="true" [display]="false" [ngClass]="'test'">
     <tabset>
       <tab>
@@ -340,10 +350,19 @@
           </div>
           <small class="text-muted">25GB/256GB</small>
         </div>
+
+        
+
       </tab>
+
+      
     </tabset>
+    
   </app-aside>
 </div>
+
+
+
 <app-footer>
   <span><a href="https://coreui.io">CoreUI</a> &copy; 2021 creativeLabs.</span>
   <span class="ml-auto">Powered by <a href="https://coreui.io/angular">CoreUI for Angular</a></span>

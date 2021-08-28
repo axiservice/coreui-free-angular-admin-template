@@ -10,6 +10,7 @@ import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
 import { TutorialsListComponent } from './views/tutorials-list/tutorials-list.component';
 import { KabanListComponent } from './kaban-list/kaban-list.component';
+import { PageTestComponent } from './page-test/page-test.component';
 
 export const routes: Routes = [
   {
@@ -57,6 +58,13 @@ export const routes: Routes = [
     component : KabanListComponent,
     data: {
        title: 'Kaban List Component'
+    }
+  },
+  {
+    path: 'testpage003',
+    component : PageTestComponent,
+    data: {
+       title: 'Page Test Component'
     }
   },
   {
