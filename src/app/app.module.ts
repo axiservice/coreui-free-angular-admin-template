@@ -15,6 +15,18 @@ import { environment } from '../environments/environment';
 
 import { TutorialsListComponent } from './views/tutorials-list/tutorials-list.component';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { TaskComponent } from './task/task.component';
+import { MatCardModule } from '@angular/material/card';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { TaskDialogComponent } from './task-dialog/task-dialog.component';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+
+
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
 };
@@ -48,6 +60,7 @@ import { AppRoutingModule } from './app.routing';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
+import { KabanListComponent } from './kaban-list/kaban-list.component';
 
 @NgModule({
   imports: [
@@ -67,6 +80,16 @@ import { ChartsModule } from 'ng2-charts';
     IconSetModule.forRoot(),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+
+    MatToolbarModule,
+    MatIconModule,
+    MatCardModule,
+    DragDropModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatInputModule,
+    FormsModule,
+
     
   ],
   declarations: [
@@ -76,7 +99,8 @@ import { ChartsModule } from 'ng2-charts';
     P500Component,
     LoginComponent,
     RegisterComponent,
-    TutorialsListComponent
+    TutorialsListComponent,
+    KabanListComponent
   ],
   providers: [
     {

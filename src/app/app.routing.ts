@@ -9,6 +9,7 @@ import { P500Component } from './views/error/500.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
 import { TutorialsListComponent } from './views/tutorials-list/tutorials-list.component';
+import { KabanListComponent } from './kaban-list/kaban-list.component';
 
 export const routes: Routes = [
   {
@@ -49,6 +50,13 @@ export const routes: Routes = [
     component : TutorialsListComponent,
     data: {
        title: 'Tutorials List Component'
+    }
+  },
+  {
+    path: 'testpage002',
+    component : KabanListComponent,
+    data: {
+       title: 'Kaban List Component'
     }
   },
   {

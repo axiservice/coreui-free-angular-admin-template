@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "coreuiproject001"
+  },
+  "targets": {
+    "coreuiproject001": {
+      "hosting": {
+        "ng": [
+          "dist"
+        ]
+      }
+    }
+  }
+}
