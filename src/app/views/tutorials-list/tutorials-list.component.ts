@@ -51,4 +51,13 @@ export class TutorialsListComponent implements OnInit {
     this.currentIndex = index;
   }
 
+  photoDetail(tutorial : Tutorial){
+    let t = tutorial.id + "\n" +
+            tutorial.title + "\n" +
+            tutorial.description??"AA" + "\n" +
+            tutorial.published??true +"\n" +
+            tutorial.note??"--";
+    window.alert('Photo detail: '+t);
+  }
+
 }

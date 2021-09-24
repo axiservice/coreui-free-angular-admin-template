@@ -19,6 +19,10 @@ export class TutorialService {
     return this.tutorialsRef;
   }
 
+  getKey1(): AngularFirestoreCollection<Tutorial> {
+    return null; //this.tutorialsRef.doc("");
+  }
+
   create(tutorial: Tutorial): any {
     return this.tutorialsRef.add({ ...tutorial });
   }
