@@ -52,7 +52,7 @@ export class TutorialsListComponent implements OnInit {
   }
 
   photoDetail(tutorial : Tutorial){
-    let t = tutorial.id + "\n" +
+    let t = "ID: QWERTY - 123 - " + tutorial.id + "\n" +
             tutorial.title + "\n" +
             tutorial.description??"AA" + "\n" +
             tutorial.published??true +"\n" +
