@@ -114,6 +114,8 @@ $ cd my-project
 # install app's dependencies
 $ npm install
 ```
+# install Angular CLI
+$ npm install -g @angular/cli
 
 ## Usage
 
