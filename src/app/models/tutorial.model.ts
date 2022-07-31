@@ -4,4 +4,6 @@ export default class Tutorial {
   description?: string;
   published?: boolean;
   note?: string;
+  usageperc?: number;
+  flagicon?: string;
 }
